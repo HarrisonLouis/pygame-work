@@ -1,3 +1,6 @@
+''' Following this tutorial from FreeCodeCamp 
+https://www.youtube.com/watch?v=FfWpgLFMI7w&list=PLdwezzyF4RX3-j51DIiDd_0pwNPisbe_4&index=2&t=1s&ab_channel=freeCodeCamp.org '''
+
 import pygame
 import random
 
@@ -94,7 +97,6 @@ while running:
 
         if laserY <= 0:
             laser_active = False
-
 
     player(playerX, playerY)
     enemy(enemyX, enemyY)
